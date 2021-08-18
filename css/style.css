@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-;
+}
+
+.conteiner {
+  max-width: 1620px;
+  margin: auto;
+}
+
+.test-block {
+  max-width: 500px;
+  min-height: 565px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.test-block img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.title {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 42px;
+  color: #000000;
+}
+
+.line {
+  max-width: 205px;
+  height: 5px;
+  background: #2575E6;
+  border-radius: 78px;
+  width: 100%;
+  margin: 0;
+}
+
+.btn {
+  max-width: 156px;
+  height: 49px;
+  border-radius: 10px;
+  border: 1px solid #2575E6;
+  background-color: transparent;
+  color: #2575E6;
+}
+
+.home {
+  margin: 0 0 7rem 0;
+}
+
+.header__logo {
+  display: flex;
+  padding: 1.8rem 0 1.8rem 0;
+}
+
+.header__logo-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #393939;
+}
+
+.header__logo-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #393939;
+}
+
+.header__logo-icon {
+  margin: 0 1rem 0 0;
+}
+
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__content {
+  background: url("../img/image 29.jpg") top/cover;
+  min-height: 659px;
+}
+
+.home__content-tilte {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 62px;
+  color: #FFFFFF;
+  margin: 0 0 3rem 0;
+}
+
+.home__content-subtilte {
+  font-family: Rubik;
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.content-conteiner {
+  padding: 10rem 0 0 0;
+}
+
+.Professions-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w {
+  max-width: 500px;
+}
+
+.Professions-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.Professions-rows__columns {
+  max-width: 500px;
+  height: 655px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.rows-columns__title {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  color: #263238;
+}
+
+.rows-columns__conteiner {
+  padding: 2rem 0 0 2.5rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  color: #D6D8E5;
+  margin: 0 0 0 1rem;
+}
+
+.rows-columns__line {
+  max-width: 450px;
+  height: 1px;
+  background: #D6D8E5;
+  border-radius: 50px;
+}
+
+.rows-columns {
+  box-shadow: 1px 1px 20px -10px #000000;
+  border-radius: 25px;
+  max-width: 500px;
+  height: 655px;
+}
+
+.Professions {
+  margin: 0 0 8rem 0;
+}
+
+.recall {
+  background: url("../img/backgr.jpg") center;
+  height: 1070px;
+  text-align: center;
+}
+
+.recall-header__title {
+  margin: 0 0 1rem 0;
+}
+
+.recall-header__line {
+  margin: 0 0 0 0;
+}
+
+.recall-header-conteiner {
+  display: flex;
+  justify-content: space-between;
+  padding: 112px 0 0 0;
+}
+
+.recall-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recall-content__coment {
+  max-width: 797px;
+  width: 100%;
+  height: 460px;
+  margin-top: 200px;
+  background: #FFFFFF;
+  box-shadow: 0px 4.53741px 18.1496px #F2F5FA, 0px 4.53741px 18.1496px #F2F5FA, 0px 4.53741px 18.1496px #F2F5FA;
+  border-radius: 25px;
+  position: relative;
+}
+
+.recall-content__coment-man-img {
+  position: relative;
+  top: -80px;
+}
+
+.recall-content__coment-subtitle {
+  max-width: 637px;
+  margin: auto;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #858688;
+}
+
+.recall-content__coment-title {
+  margin-bottom: 1rem;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+#kov {
+  margin-bottom: 2rem;
+}
+
+.recall-content-buttons-wrapper {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.recall-content-buttons {
+  max-width: 56px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #2575E6;
+  background-color: transparent;
+  color: #2575E6;
+  margin-right: 0.5rem;
+  padding-top: 0.7rem;
+}
+
+.recall-content-buttons.active {
+  background-color: #2575E6;
+}
+
+#svg2 {
+  stroke: #fff;
+}
+
+.news {
+  min-height: 931px;
+  padding-top: 7rem;
+}
+
+.news-collum {
+  max-width: 500px;
+  min-height: 565px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.news-collum img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.news-content {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-collum__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #263238;
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.news-collum__flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1620px) {
+  .conteiner {
+    max-width: 1100px;
+  }
+
+  .Professions-rows {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .news-content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (max-width: 1610px) {
+  .Professions-rows {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+@media (max-width: 1116px) {
+  .Professions-rows {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 30px;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .conteiner {
+    max-width: 1100px;
+    padding: 0 5px 0 5px;
+  }
+}
+@media (max-width: 500px) {
+  .rows-columns, .w {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .rows-columns, .w {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
